@@ -2,115 +2,78 @@
 <html>
 
 <head>
-<h1>HELLO WORLD TEST</h1>
-
-<style>
-
-body{
-font-family: Arial, sans-serif;
-background:#f5f7fb;
-margin:0;
-padding:0;
-text-align:center;
-}
-
-header{
-padding:60px 20px;
-background:white;
-box-shadow:0 2px 10px rgba(0,0,0,0.05);
-}
-
-h1{
-margin:0;
-font-size:42px;
-}
-
-.subtitle{
-color:#555;
-margin-top:10px;
-font-size:18px;
-}
-
-.section{
-margin-top:60px;
-}
-
-.projects{
-display:flex;
-justify-content:center;
-gap:30px;
-flex-wrap:wrap;
-margin-top:40px;
-}
-
-.card{
-background:white;
-width:300px;
-padding:25px;
-border-radius:12px;
-box-shadow:0 4px 20px rgba(0,0,0,0.08);
-transition:transform 0.2s;
-}
-
-.card:hover{
-transform:translateY(-8px);
-}
-
-.card h3{
-margin-top:0;
-}
-
-.contact{
-margin-top:80px;
-padding-bottom:60px;
-}
-
-</style>
-
+<title>Tanisha Gangrade</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+<nav>
+<h2>Tanisha Gangrade</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+
+<section class="hero">
 
 <h1>Tanisha Gangrade</h1>
-<p class="subtitle">ECE Student | Machine Learning | AI Research</p>
+<p>ECE Student | Machine Learning | AI Research</p>
 
-</header>
+</section>
 
 
-<div class="section">
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am an ECE student at MANIT Bhopal interested in machine learning,
+AI research, reinforcement learning and real-world ML systems.
+</p>
+
+</section>
+
+
+<section id="projects">
 
 <h2>Projects</h2>
 
 <div class="projects">
 
-<div class="card">
+<a href="projects/phishing.html" class="card">
 <h3>Phishing Website Detection</h3>
-<p>Machine learning model to detect phishing websites.</p>
-</div>
+<p>ML model detecting phishing websites.</p>
+</a>
 
-<div class="card">
+<a href="projects/connect4.html" class="card">
 <h3>Connect Four Reinforcement Learning</h3>
 <p>DQN agent trained to play Connect Four.</p>
-</div>
+</a>
 
-<div class="card">
+<a href="projects/upi-fraud.html" class="card">
 <h3>UPI Fraud Detection</h3>
-<p>AI system for detecting fraudulent digital transactions.</p>
-</div>
+<p>AI system detecting fraudulent transactions.</p>
+</a>
 
 </div>
 
-</div>
+</section>
 
 
-<div class="contact">
+<section id="contact">
 
 <h2>Contact</h2>
+
 <p>Email: your@email.com</p>
 
-</div>
+</section>
 
 </body>
+
 </html>
